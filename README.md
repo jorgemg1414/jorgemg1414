@@ -1,16 +1,31 @@
-## Hi there 👋
+# 👋 ¡Hola! Soy Jorge 🚀
 
-<!--
-**jorgemg1414/jorgemg1414** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bienvenido a mi pequeño rincón en GitHub 😄  
+Soy un apasionado de la tecnología, la música (sí, *death metal* 🤘), y todo lo que tenga que ver con aprender, crear y romper cosas (solo para volver a armarlas mejor).
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💻 Tecnologías e Intereses
+
+- 🧠 **Lenguajes:** C, Python, JavaScript  
+- ⚙️ **Áreas:** Soporte técnico, reparación de computadoras, redes, automatización y desarrollo web básico  
+- 🔥 **Aprendiendo:** Git, desarrollo backend y un poco de ciberseguridad  
+- 🎸 **Extra:** Guitarrista en una banda de death metal 
+
+---
+
+## 🎯 Metas Académicas y Profesionales
+
+- 🧩 Seguir mejorando mis habilidades en programación y sistemas  
+- 💼 Desarrollar mi propio negocio tecnológico (ya tengo ideas 👀)  
+- ⚡ Crear proyectos que mezclen **tecnología + música + creatividad**
+
+---
+
+> “El mejor código no es el más complejo, sino el que deja a otros decir: *‘¿por qué no se me ocurrió eso?’*”
+
+Gracias por pasar por aquí 🙌  
+Si te gusta lo que ves, ¡déjame una ⭐ en algún repo!
+
+---
+
