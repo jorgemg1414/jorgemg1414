@@ -7,7 +7,7 @@ Soy un apasionado de la tecnología, la música (sí, *death metal* 🤘), y tod
 
 ## 💻 Tecnologías e Intereses
 
-- 🧠 **Lenguajes:** C, Python, JavaScript  
+- 🧠 **Lenguajes:** JavaScript/TypeScript y Frontends como VUE  
 - ⚙️ **Áreas:** Soporte técnico, reparación de computadoras, redes, automatización y desarrollo web básico  
 - 🔥 **Aprendiendo:** Git, desarrollo backend y un poco de ciberseguridad  
 - 🎸 **Extra:** Guitarrista en una banda de death metal 
