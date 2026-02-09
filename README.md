@@ -1,16 +1,15 @@
-# 👋 ¡Hola! Soy Jorge 🚀
+#  ¡Hola! Soy Jorge 
 
-Bienvenido a mi pequeño rincón en GitHub 😄  
-Soy un apasionado de la tecnología, la música (sí, *death metal* 🤘), y todo lo que tenga que ver con aprender, crear y romper cosas (solo para volver a armarlas mejor).
+Bienvenido a mi pequeño rincón en GitHub 👻
+Soy un apasionado de la tecnología, la música, y todo lo que tenga que ver con aprender, crear y romper cosas (solo para volver a armarlas mejor).
 
 ---
 
 ## 💻 Tecnologías e Intereses
 
-- 🧠 **Lenguajes:** JavaScript/TypeScript y Frontends como VUE  
+- 🧠 **Lenguajes:** C, JavaScript/TypeScript y Frontends como VUE  
 - ⚙️ **Áreas:** Soporte técnico, reparación de computadoras, redes, automatización y desarrollo web básico  
-- 🔥 **Aprendiendo:** Git, desarrollo backend y un poco de ciberseguridad  
-- 🎸 **Extra:** Guitarrista en una banda de death metal 
+- 🔥 **Aprendiendo:** Git, desarrollo backend y un poco de ciberseguridad con Kali Linux
 
 ---
 
