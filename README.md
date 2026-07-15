@@ -112,9 +112,9 @@ const jorge = {
 
 <div align="center">
 
-<!-- Spotify "now playing" — reemplaza TU_UID por el tuyo (ver instrucciones para obtenerlo) -->
+<!-- Spotify "now playing" de jorgemg1414 -->
 <a href="https://open.spotify.com/">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=TU_UID&cover_image=true&theme=default&show_offline=true&background_color=0d1117&bar_color=B30000&bar_color_cover=true" alt="Spotify Now Playing" />
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=k46ppa0206i5l0c8fc9r8udn9&cover_image=true&theme=default&show_offline=true&background_color=0d1117&bar_color=B30000&bar_color_cover=true" alt="Spotify Now Playing" />
 </a>
 
 </div>
