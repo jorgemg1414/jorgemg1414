@@ -1,6 +1,6 @@
 <!-- ============================================================= -->
 <!--  README de Jorge                                              -->
-<!--  IMPORTANTE: reemplaza  TuUsuario  por tu usuario real de     -->
+<!--  IMPORTANTE: reemplaza  jorgemg1414  por tu usuario real de     -->
 <!--  GitHub en TODO el archivo (Ctrl+H → Reemplazar todo).        -->
 <!-- ============================================================= -->
 
@@ -12,7 +12,7 @@
 
 <br/>
 
-<a href="#"><img src="https://komarev.com/ghpvc/?username=TuUsuario&label=Visitas%20al%20perfil&color=B30000&style=for-the-badge" alt="views" /></a>
+<a href="#"><img src="https://komarev.com/ghpvc/?username=jorgemg1414&label=Visitas%20al%20perfil&color=B30000&style=for-the-badge" alt="views" /></a>
 
 </div>
 
@@ -84,25 +84,25 @@ const jorge = {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TuUsuario&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=B30000&icon_color=B30000&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=TuUsuario&hide_border=true&background=0d1117&stroke=B30000&ring=B30000&fire=B30000&currStreakLabel=B30000&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=jorgemg1414&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=B30000&icon_color=B30000&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=jorgemg1414&hide_border=true&background=0d1117&stroke=B30000&ring=B30000&fire=B30000&currStreakLabel=B30000&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
 
 <br/>
 
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TuUsuario&layout=compact&hide_border=true&bg_color=0d1117&title_color=B30000&text_color=c9d1d9&langs_count=8" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgemg1414&layout=compact&hide_border=true&bg_color=0d1117&title_color=B30000&text_color=c9d1d9&langs_count=8" />
 
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=TuUsuario&bg_color=0d1117&color=B30000&line=B30000&point=ffffff&hide_border=true&area=true" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=B30000&line=B30000&point=ffffff&hide_border=true&area=true" />
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=TuUsuario&theme=darkhub&no-frame=true&column=7&margin-w=15&margin-h=15" />
+<img src="https://github-profile-trophy.vercel.app/?username=jorgemg1414&theme=darkhub&no-frame=true&column=7&margin-w=15&margin-h=15" />
 
 <br/>
 
 <!-- 🐍 Serpiente que se come tus contribuciones (necesita el workflow snake.yml, ver instrucciones) -->
-<img width="100%" src="https://raw.githubusercontent.com/TuUsuario/TuUsuario/output/github-snake-dark.svg" alt="snake animation" />
+<img width="100%" src="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/github-snake-dark.svg" alt="snake animation" />
 
 </div>
 
