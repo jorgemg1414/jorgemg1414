@@ -6,8 +6,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=180&section=header&text=Jorge%20Mart%C3%ADn&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
 
-<a href="#"><img src="https://komarev.com/ghpvc/?username=jorgemg1414&label=Visitas%20al%20perfil&color=0066FF&style=for-the-badge" alt="views" /></a>
-
 </div>
 
 ---
