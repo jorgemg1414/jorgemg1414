@@ -4,7 +4,9 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=180&section=header&text=Jorge%20Mart%C3%ADn&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=160&section=header" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=0066FF&center=true&vCenter=true&width=700&height=90&lines=Jorge+Mart%C3%ADn" alt="Jorge Martín" />
 
 </div>
 
