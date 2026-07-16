@@ -6,10 +6,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=180&section=header&text=Jorge%20Mart%C3%ADn&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0066FF&center=true&vCenter=true&width=680&height=55&lines=Encargado+de+IT+%2F+Sistemas;Si+lo+hago+dos+veces%2C+lo+automatizo;De+d%C3%ADa+servidores%2C+de+noche+c%C3%B3digo;Aprendiendo+backend+y+ciberseguridad" alt="Typing SVG" />
-
-<br/>
-
 <a href="#"><img src="https://komarev.com/ghpvc/?username=jorgemg1414&label=Visitas%20al%20perfil&color=0066FF&style=for-the-badge" alt="views" /></a>
 
 </div>
