@@ -31,6 +31,7 @@ const jorge = {
 - 🤖 Mi religión es la **automatización**: si lo hago dos veces, ya es un script → AutoHotkey, AutoIt, Batch, VBA
 - 🧠 Aprendiendo **C y Python** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
 - 🔒 Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
+- 🧩 Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
 
 ---
 
@@ -71,6 +72,7 @@ const jorge = {
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
 ---
 
