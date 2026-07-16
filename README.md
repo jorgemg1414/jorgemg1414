@@ -14,8 +14,6 @@
 
 ## 💻 Sobre mí
 
-<img align="right" width="300" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="coding gif" />
-
 ```js
 const jorge = {
   rol:        "Encargado de IT / Sistemas",
