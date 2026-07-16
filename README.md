@@ -1,43 +1,36 @@
 <!-- ============================================================= -->
 <!--  README de Jorge                                              -->
-<!--  IMPORTANTE: reemplaza  jorgemg1414  por tu usuario real de     -->
-<!--  GitHub en TODO el archivo (Ctrl+H → Reemplazar todo).        -->
 <!-- ============================================================= -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B30000,100:1a1a1a&height=180&section=header&text=Jorge%20Mart%C3%ADn&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=180&section=header&text=Jorge%20Mart%C3%ADn&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=B30000&center=true&vCenter=true&width=680&height=55&lines=Sysadmin+de+d%C3%ADa%2C+bajista+de+death+metal+de+noche;Si+lo+hago+dos+veces%2C+lo+automatizo;De+d%C3%ADa+servidores%2C+de+noche+riffs+y+pesas;Desde+los+Altos+de+Jalisco" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0066FF&center=true&vCenter=true&width=680&height=55&lines=Encargado+de+IT+%2F+Sistemas;Si+lo+hago+dos+veces%2C+lo+automatizo;De+d%C3%ADa+servidores%2C+de+noche+c%C3%B3digo;Aprendiendo+backend+y+ciberseguridad" alt="Typing SVG" />
 
 <br/>
 
-<a href="#"><img src="https://komarev.com/ghpvc/?username=jorgemg1414&label=Visitas%20al%20perfil&color=B30000&style=for-the-badge" alt="views" /></a>
+<a href="#"><img src="https://komarev.com/ghpvc/?username=jorgemg1414&label=Visitas%20al%20perfil&color=0066FF&style=for-the-badge" alt="views" /></a>
 
 </div>
 
 ---
 
-## 🤘 Sobre mí
+## 💻 Sobre mí
 
 ```js
 const jorge = {
   rol:        "Encargado de IT / Sistemas",
-  ubicacion:  "Altos de Jalisco 🐎",
   estudiando: "ICOM @ CUALTOS (UdeG)",
   religion:   "La automatización",
-  banda:      "Death metal — guitarra + bajo",
-  gym:        "4 días a la semana 💪",
-  hobbies:    ["guitarra", "comer", "dormir", "superarme"],
+  aprendiendo: ["C", "Python", "Backend", "Ciberseguridad"],
 };
 ```
 
-- 🖥️ De día levanto **servidores SQL, redes y cámaras**; de noche levanto **pesas y riffs**
+- 🖥️ Levanto y administro **servidores SQL, redes y cámaras**
 - 🤖 Mi religión es la **automatización**: si lo hago dos veces, ya es un script → AutoHotkey, AutoIt, Batch, VBA
-- 🎸 Afino en **Drop A / Drop B** cuando el día lo amerita — Opeth, Death y Slipknot en repeat
 - 🧠 Aprendiendo **C y Python** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
-- 🐎 Del rancho: café, código y silencio
-- ☕ El 90% de mis bugs se resuelven con cafeína y un blast beat de fondo
+- 🔒 Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
 
 ---
 
@@ -80,31 +73,18 @@ const jorge = {
 
 ---
 
-## 🎧 Escuchando ahora
-
 <div align="center">
 
-<!-- Spotify "now playing" de jorgemg1414 -->
-<a href="https://open.spotify.com/">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=k46ppa0206i5l0c8fc9r8udn9&cover_image=true&theme=default&show_offline=true&background_color=0d1117&bar_color=B30000&bar_color_cover=true" alt="Spotify Now Playing" />
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=jorgemg1414&show_icons=true&theme=tokyonight&title_color=0066FF&icon_color=0066FF&hide_border=true&bg_color=0d1117" alt="stats" />
 
-</div>
+<br/>
 
-> **En rotación:** Slipknot · Metallica · Dream Theater · Opeth · Death
->
-> *Si el código no jala, súbele al volumen.*
-
----
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jorgemg1414&theme=tokyonight&ring=0066FF&fire=0066FF&currStreakLabel=0066FF&hide_border=true&background=0d1117" alt="streak" />
 
 <br/><br/>
 
-**Sysadmin. Bajista. Ranchero de los Altos.** 🤘
+**Sysadmin · Developer · Automatización.** 💻
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,100:B30000&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a4d,100:0066FF&height=120&section=footer" width="100%" />
 
 </div>
