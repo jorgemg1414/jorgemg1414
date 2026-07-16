@@ -64,6 +64,24 @@ const jorge = {
 
 ---
 
+## 🚀 Proyectos destacados
+
+| Proyecto | Descripción | Enlace |
+| :------- | :---------- | :----- |
+| **RustBlood** | Sitio web que desarrollé — frontend, diseño y despliegue | [rustblood.com](https://rustblood.com) |
+
+---
+
+## 📫 Contacto
+
+![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+- 📧 **Correo:** jorgemantin@gmail.com
+- 🐙 **GitHub:** [@jorgemg1414](https://github.com/jorgemg1414)
+
+---
+
 <div align="center">
 
 <img src="https://streak-stats.demolab.com/?user=jorgemg1414&theme=tokyonight&ring=0066FF&fire=0066FF&currStreakLabel=0066FF&sideNums=0066FF&hide_border=true&background=0d1117" alt="streak" />
