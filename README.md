@@ -17,13 +17,13 @@ const jorge = {
   rol:        "Encargado de IT / Sistemas",
   estudiando: "ICOM @ CUALTOS (UdeG)",
   religion:   "La automatización",
-  aprendiendo: ["C", "Python", "Backend", "Ciberseguridad"],
+  aprendiendo: ["C", "Vue", "TypeScript", "JavaScript", "Backend", "Ciberseguridad"],
 };
 ```
 
 - 🖥️ Levanto y administro **servidores SQL, redes y cámaras**
 - 🤖 Mi religión es la **automatización**: si lo hago dos veces, ya es un script → AutoHotkey, AutoIt, Batch, VBA
-- 🧠 Aprendiendo **C y Python** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
+- 🧠 Aprendiendo **C, Vue, TypeScript y JavaScript** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
 - 🔒 Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
 - 🧩 Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
 
