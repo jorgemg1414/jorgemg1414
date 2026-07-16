@@ -18,13 +18,11 @@
 const jorge = {
   rol:        "Encargado de IT / Sistemas",
   estudiando: "ICOM @ CUALTOS (UdeG)",
-  religion:   "La automatización",
   aprendiendo: ["C", "Vue", "TypeScript", "JavaScript", "Backend", "Ciberseguridad"],
 };
 ```
 
 - 🖥️ Levanto y administro **servidores SQL, redes y cámaras**
-- 🤖 Mi religión es la **automatización**: si lo hago dos veces, ya es un script → AutoHotkey, AutoIt, Batch, VBA
 - 🧠 Aprendiendo **C, Vue, TypeScript y JavaScript** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
 - 🔒 Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
 - 🧩 Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
@@ -52,7 +50,7 @@ const jorge = {
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-**Automatización & Sistemas**
+**Sistemas**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
