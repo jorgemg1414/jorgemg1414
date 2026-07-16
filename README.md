@@ -76,7 +76,8 @@ const jorge = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jorgemg1414&show_icons=true&theme=tokyonight&title_color=0066FF&icon_color=0066FF&hide_border=true&bg_color=0d1117" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=jorgemg1414&show_icons=true&theme=tokyonight&title_color=0066FF&icon_color=0066FF&text_color=c9d1d9&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgemg1414&layout=compact&theme=tokyonight&title_color=0066FF&text_color=c9d1d9&hide_border=true&bg_color=0d1117&langs_count=8" alt="top langs" />
 
 <br/>
 
