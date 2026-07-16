@@ -66,9 +66,13 @@ const jorge = {
 
 ## 🚀 Proyectos destacados
 
-| Proyecto | Descripción | Enlace |
-| :------- | :---------- | :----- |
-| **RustBlood** | Sitio web que desarrollé — frontend, diseño y despliegue | [rustblood.com](https://rustblood.com) |
+| Proyecto | Descripción | Estado | Enlace |
+| :------- | :---------- | :----- | :----- |
+| **RustBlood** | Sitio web — frontend, diseño y despliegue | ![Live](https://img.shields.io/badge/Live-0066FF?style=flat-square) | [rustblood.com](https://rustblood.com) |
+| **YohoHielo** | Sitio de venta de hielo premium | ![Beta](https://img.shields.io/badge/Beta-FFB000?style=flat-square) | [yohohielo.vercel.app](https://yohohielo.vercel.app/) |
+| **BAO Textil** | Tienda de textiles para el hogar | ![Beta](https://img.shields.io/badge/Beta-FFB000?style=flat-square) | [bao-textil.vercel.app](https://bao-textil.vercel.app/) |
+
+> 🚧 *YohoHielo y BAO Textil están en **beta**; sigo trabajando en ellos.*
 
 ---
 
