@@ -14,18 +14,18 @@
 ## <samp>$ cat ~/sobre-mi.md</samp>
 
 ```
-      ██╗ ███╗   ███╗     jorge@github
-      ██║ ████╗ ████║     ──────────────────────────────────────────
-      ██║ ██╔████╔██║     OS ........... Debian GNU/Linux
- ██   ██║ ██║╚██╔╝██║     Host ......... CUALTOS (UdeG) · ICOM
- ╚█████╔╝ ██║ ╚═╝ ██║     Rol .......... Encargado de IT / Sistemas
-  ╚════╝  ╚═╝     ╚═╝     Uptime ....... desde 2007
-                          Shell ........ zsh
-                          Lenguajes .... C · JavaScript · TypeScript
-                          Estudiando ... Vue · Backend · Ciberseguridad
-                          Infra ........ SQL Server · redes · cámaras
-                          Seguridad .... hardening · ofensiva/defensiva
-                          IA ........... Claude · OpenCode
+jorge@github
+──────────────────────────────────────────
+OS ........... Debian GNU/Linux
+Host ......... CUALTOS (UdeG) · ICOM
+Rol .......... Encargado de IT / Sistemas
+Uptime ....... desde 2007
+Shell ........ zsh
+Lenguajes .... C · JavaScript · TypeScript
+Estudiando ... Vue · Backend · Ciberseguridad
+Infra ........ SQL Server · redes · cámaras
+Seguridad .... hardening · ofensiva/defensiva
+IA ........... Claude · OpenCode
 ```
 
 - `[*]` Levanto y administro **servidores SQL, redes y cámaras**
