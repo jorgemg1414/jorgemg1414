@@ -93,11 +93,19 @@ const jorge = {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=jorgemg1414&theme=tokyonight&ring=0066FF&fire=0066FF&currStreakLabel=0066FF&sideNums=0066FF&hide_border=true&background=0d1117" alt="streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=jorgemg1414&background=0d1117&ring=0066FF&fire=0066FF&currStreakNum=c9d1d9&currStreakLabel=0066FF&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&stroke=21262d&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=jorgemg1414&background=ffffff&ring=0066FF&fire=0066FF&currStreakNum=24292f&currStreakLabel=0066FF&sideNums=24292f&sideLabels=57606a&dates=57606a&stroke=d0d7de&hide_border=true" />
+  <img alt="streak" src="https://streak-stats.demolab.com/?user=jorgemg1414&background=0d1117&ring=0066FF&fire=0066FF&currStreakNum=c9d1d9&currStreakLabel=0066FF&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&stroke=21262d&hide_border=true" />
+</picture>
 
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" alt="activity graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&title_color=0066FF&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=ffffff&color=24292f&title_color=0066FF&line=0066FF&point=0066FF&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
+  <img width="100%" alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&title_color=0066FF&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
+</picture>
 
 <br/>
 
