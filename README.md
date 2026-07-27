@@ -107,6 +107,14 @@ const jorge = {
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" alt="activity graph" />
 
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/github-snake.svg" />
+  <img width="100%" alt="snake" src="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/github-snake.svg" />
+</picture>
+
 <br/><br/>
 
 **Sysadmin · Developer.** 💻
