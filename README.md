@@ -9,9 +9,9 @@
 
 </div>
 
----
+<samp># ─────────────────────────────────────────────────────────────</samp>
 
-## 💻 Sobre mí
+## <samp>$ cat ~/sobre-mi.md</samp>
 
 ```
       ██╗ ███╗   ███╗     jorge@github
@@ -28,14 +28,14 @@
                           IA ........... Claude · OpenCode
 ```
 
-- 🖥️ Levanto y administro **servidores SQL, redes y cámaras**
-- 🧠 Aprendiendo **C, Vue, TypeScript y JavaScript** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
-- 🔒 Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
-- 🧩 Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
+- `[*]` Levanto y administro **servidores SQL, redes y cámaras**
+- `[*]` Aprendiendo **C, Vue, TypeScript y JavaScript** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
+- `[+]` Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
+- `[+]` Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
 
----
+<samp># ─────────────────────────────────────────────────────────────</samp>
 
-## 🛠️ Mi Stack
+## <samp>$ apt list --installed</samp>
 
 **Lenguajes**
 
@@ -69,9 +69,9 @@
 <img src="https://cdn.simpleicons.org/claude" height="42" alt="Claude" title="Claude" />&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/opencode/000000/ffffff" height="42" alt="OpenCode" title="OpenCode" />
 
----
+<samp># ─────────────────────────────────────────────────────────────</samp>
 
-## 🚀 Proyectos destacados
+## <samp>$ ls ~/proyectos</samp>
 
 ```
 jorge@github:~$ ls -la ~/proyectos
@@ -85,11 +85,11 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 **yohohielo/** → [yohohielo.vercel.app](https://yohohielo.vercel.app/) &nbsp;·&nbsp;
 **bao-textil/** → [bao-textil.vercel.app](https://bao-textil.vercel.app/)
 
-> 🚧 *YohoHielo y BAO Textil están en **beta**; sigo trabajando en ellos.*
+> `[!]` *YohoHielo y BAO Textil están en **beta**; sigo trabajando en ellos.*
 
----
+<samp># ─────────────────────────────────────────────────────────────</samp>
 
-## 📫 Contacto
+## <samp>$ cat ~/.contacts</samp>
 
 [<img src="https://cdn.simpleicons.org/gmail" height="42" alt="Email" title="jorgemantin@gmail.com" />](mailto:jorgemantin@gmail.com)
 &nbsp;&nbsp;
@@ -101,7 +101,7 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 &nbsp;&nbsp;
 [<img src="https://cdn.simpleicons.org/github/181717/ffffff" height="42" alt="GitHub" title="GitHub" />](https://github.com/jorgemg1414)
 
----
+<samp># ─────────────────────────────────────────────────────────────</samp>
 
 <div align="center">
 
@@ -129,7 +129,7 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 
 <br/><br/>
 
-**Sysadmin · Developer.** 💻
+<samp>$ logout</samp>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a4d,100:0066FF&height=120&section=footer" width="100%" />
 
