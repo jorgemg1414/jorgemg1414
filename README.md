@@ -60,7 +60,8 @@ const jorge = {
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="46" alt="Git" title="Git" />&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/github/181717/ffffff" height="42" alt="GitHub" title="GitHub" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="46" alt="VS Code" title="VS Code" />&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/claude" height="42" alt="Claude" title="Claude" />
+<img src="https://cdn.simpleicons.org/claude" height="42" alt="Claude" title="Claude" />&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/opencode/000000/ffffff" height="42" alt="OpenCode" title="OpenCode" />
 
 ---
 
