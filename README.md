@@ -79,11 +79,15 @@ const jorge = {
 
 ## 📫 Contacto
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jorgemantin@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-martin-gomez14/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jorge_margomz)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100078654099312)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jorgemg1414)
+[<img src="https://cdn.simpleicons.org/gmail" height="42" alt="Email" title="jorgemantin@gmail.com" />](mailto:jorgemantin@gmail.com)
+&nbsp;&nbsp;
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="42" alt="LinkedIn" title="LinkedIn" />](https://www.linkedin.com/in/jorge-martin-gomez14/)
+&nbsp;&nbsp;
+[<img src="https://cdn.simpleicons.org/instagram" height="42" alt="Instagram" title="Instagram" />](https://instagram.com/jorge_margomz)
+&nbsp;&nbsp;
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" height="42" alt="Facebook" title="Facebook" />](https://www.facebook.com/profile.php?id=100078654099312)
+&nbsp;&nbsp;
+[<img src="https://cdn.simpleicons.org/github/181717/ffffff" height="42" alt="GitHub" title="GitHub" />](https://github.com/jorgemg1414)
 
 ---
 
