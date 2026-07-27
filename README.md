@@ -73,11 +73,17 @@
 
 ## 🚀 Proyectos destacados
 
-| Proyecto | Descripción | Estado | Enlace |
-| :------- | :---------- | :----- | :----- |
-| **RustBlood** | Sitio web — frontend, diseño y despliegue | ![Live](https://img.shields.io/badge/Live-0066FF?style=flat-square) | [rustblood.com](https://rustblood.com) |
-| **YohoHielo** | Sitio de venta de hielo premium | ![Beta](https://img.shields.io/badge/Beta-FFB000?style=flat-square) | [yohohielo.vercel.app](https://yohohielo.vercel.app/) |
-| **BAO Textil** | Tienda de textiles para el hogar | ![Beta](https://img.shields.io/badge/Beta-FFB000?style=flat-square) | [bao-textil.vercel.app](https://bao-textil.vercel.app/) |
+```
+jorge@github:~$ ls -la ~/proyectos
+total 3
+drwxr-xr-x  live  rustblood/     Sitio web — frontend, diseño y despliegue
+drwxr-xr-x  beta  yohohielo/     Venta de hielo premium
+drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
+```
+
+**rustblood/** → [rustblood.com](https://rustblood.com) &nbsp;·&nbsp;
+**yohohielo/** → [yohohielo.vercel.app](https://yohohielo.vercel.app/) &nbsp;·&nbsp;
+**bao-textil/** → [bao-textil.vercel.app](https://bao-textil.vercel.app/)
 
 > 🚧 *YohoHielo y BAO Textil están en **beta**; sigo trabajando en ellos.*
 
