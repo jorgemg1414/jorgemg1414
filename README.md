@@ -4,8 +4,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=160&section=header" width="100%" />
-
 <img src="./assets/header.svg" width="100%" alt="Jorge Martín — Sysadmin y Developer" />
 
 </div>
