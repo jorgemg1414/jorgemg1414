@@ -5,7 +5,7 @@
 <div align="center">
 
 <!-- ?v= rompe el cache de Camo: subelo cuando regeneres header.svg -->
-<img src="./assets/header.svg?v=2" width="100%" alt="Jorge Martín — Sysadmin y Developer" />
+<img src="./assets/header.svg?v=3" width="100%" alt="Jorge Martín — Sysadmin y Developer" />
 
 </div>
 
