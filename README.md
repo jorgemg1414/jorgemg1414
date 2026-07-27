@@ -6,7 +6,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066FF,100:001a4d&height=160&section=header" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=50&duration=2500&pause=1000&color=0066FF&center=true&vCenter=true&width=700&height=90&lines=Jorge+Mart%C3%ADn" alt="Jorge Martín" />
+<img src="./assets/header.svg" width="100%" alt="Jorge Martín — Sysadmin y Developer" />
 
 </div>
 
