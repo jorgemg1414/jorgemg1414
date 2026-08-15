@@ -77,7 +77,7 @@ IA ........... Claude · OpenCode
 jorge@github:~$ ls -la ~/proyectos
 total 4
 drwxr-xr-x  live  rustblood/     Sitio web — frontend, diseño y despliegue
-drwxr-xr-x  live  chicks-tepa/   Pollo frito marinado 24 h — menú y pedidos
+drwxr-xr-x  beta  chicks-tepa/   Pollo frito marinado 24 h — menú y pedidos
 drwxr-xr-x  beta  yohohielo/     Venta de hielo premium
 drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 ```
@@ -87,7 +87,7 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 **yohohielo/** → [yohohielo.vercel.app](https://yohohielo.vercel.app/) &nbsp;·&nbsp;
 **bao-textil/** → [bao-textil.vercel.app](https://bao-textil.vercel.app/)
 
-> `[!]` *YohoHielo y BAO Textil están en **beta**; sigo trabajando en ellos.*
+> `[!]` *CHICKS, YohoHielo y BAO Textil están en **beta**: aún no son sitios oficiales ni venden nada todavía; sigo trabajando en ellos.*
 
 <samp># ─────────────────────────────────────────────────────────────</samp>
 
