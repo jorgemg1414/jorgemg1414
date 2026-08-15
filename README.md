@@ -115,11 +115,8 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jorgemg1414&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jorgemg1414&theme=github" />
-  <img alt="lenguajes más usados" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jorgemg1414&theme=github_dark" />
-</picture>
+<!-- la genera assets/gen_langs.py en cada corrida del workflow -->
+<img src="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/langs.svg" alt="lenguajes más usados" />
 
 <br/>
 
