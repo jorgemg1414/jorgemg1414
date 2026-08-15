@@ -36,52 +36,68 @@ OTHERS = "#8b949e"
 
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": USER}
-if TOKEN:
-    HEADERS["Authorization"] = f"Bearer {TOKEN}"
 
 
-def api(path):
-    req = urllib.request.Request(API + path, headers=HEADERS)
+def api(path, auth):
+    """auth=False va sin credencial: un token invalido tumba hasta lo publico."""
+    headers = dict(HEADERS)
+    if auth:
+        headers["Authorization"] = f"Bearer {TOKEN}"
+    req = urllib.request.Request(API + path, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as fh:
         return json.load(fh)
 
 
-def repos():
-    """Tus repos, privados incluidos si el token alcanza.
+def paginar(base, auth):
+    found, page = [], 1
+    while True:
+        chunk = api(base + str(page), auth)
+        found += chunk
+        if len(chunk) < 100:
+            break
+        page += 1
+    return found
 
-    /user/repos necesita un token de usuario; el GITHUB_TOKEN de Actions no
-    tiene contexto de usuario, asi que ahi caemos a la lista publica.
+
+def repos():
+    """(repos, autenticado). Con token valido incluye privados; si no, publico.
+
+    /user/repos necesita un token de usuario: el GITHUB_TOKEN de Actions no
+    tiene contexto de usuario y responde 401, igual que un PAT revocado.
     """
-    paths = ["/user/repos?affiliation=owner&per_page=100&page=",
-             f"/users/{USER}/repos?per_page=100&page="]
-    for base in paths:
-        found, page = [], 1
+    if TOKEN:
         try:
-            while True:
-                chunk = api(base + str(page))
-                found += chunk
-                if len(chunk) < 100:
-                    break
-                page += 1
+            found = paginar("/user/repos?affiliation=owner&per_page=100&page=", True)
+            privados = sum(1 for r in found if r.get("private"))
+            print(f"  {len(found)} repos ({privados} privados) con token")
+            return found, True
         except urllib.error.HTTPError as err:
-            print(f"  {base.split('?')[0]} -> HTTP {err.code}, intentando otra via")
-            continue
-        privados = sum(1 for r in found if r.get("private"))
-        print(f"  {len(found)} repos ({privados} privados) via {base.split('?')[0]}")
-        return found
-    raise SystemExit("no pude listar repos: revisa el token")
+            print(f"  token rechazado (HTTP {err.code}): "
+                  f"revisa que PROFILE_TOKEN siga vigente")
+    else:
+        print("  sin token en el entorno")
+
+    found = paginar(f"/users/{USER}/repos?per_page=100&page=", False)
+    print(f"  {len(found)} repos publicos, sigo sin token")
+    return found, False
 
 
 def totales():
-    """Bytes por lenguaje, sumando repos propios que no sean fork."""
+    """(bytes por lenguaje, autenticado), sumando repos propios que no sean fork."""
+    lista, autenticado = repos()
     acc = {}
-    for repo in repos():
+    for repo in lista:
         if repo.get("fork") or repo["name"] in EXCLUDE_REPOS:
             continue
-        for lang, size in api(f"/repos/{repo['full_name']}/languages").items():
+        try:
+            langs = api(f"/repos/{repo['full_name']}/languages", autenticado)
+        except urllib.error.HTTPError as err:
+            print(f"  {repo['name']}: HTTP {err.code}, lo salto")
+            continue
+        for lang, size in langs.items():
             if lang not in EXCLUDE_LANGS:
                 acc[lang] = acc.get(lang, 0) + size
-    return acc
+    return acc, autenticado
 
 
 def reparto(acc):
@@ -157,9 +173,9 @@ def render(filas, privados):
 
 
 if __name__ == "__main__":
-    acc = totales()
+    acc, autenticado = totales()
     filas = reparto(acc)
-    svg, h = render(filas, bool(TOKEN))
+    svg, h = render(filas, autenticado)
 
     destino = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
         os.path.dirname(os.path.abspath(__file__)), "langs.svg")
