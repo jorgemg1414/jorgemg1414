@@ -75,13 +75,15 @@ IA ........... Claude · OpenCode
 
 ```
 jorge@github:~$ ls -la ~/proyectos
-total 3
+total 4
 drwxr-xr-x  live  rustblood/     Sitio web — frontend, diseño y despliegue
+drwxr-xr-x  live  chicks-tepa/   Pollo frito marinado 24 h — menú y pedidos
 drwxr-xr-x  beta  yohohielo/     Venta de hielo premium
 drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 ```
 
 **rustblood/** → [rustblood.com](https://rustblood.com) &nbsp;·&nbsp;
+**chicks-tepa/** → [chicks-tepa.vercel.app](https://chicks-tepa.vercel.app/) &nbsp;·&nbsp;
 **yohohielo/** → [yohohielo.vercel.app](https://yohohielo.vercel.app/) &nbsp;·&nbsp;
 **bao-textil/** → [bao-textil.vercel.app](https://bao-textil.vercel.app/)
 
