@@ -144,7 +144,7 @@ def render(filas, privados):
         f'<rect x="{PAD}" y="{BAR_Y}" width="{ancho}" height="{BAR_H}" rx="{BAR_H / 2}"/>',
         '</clipPath></defs>',
         f'<text class="mono cmd" x="{PAD}" y="34" font-size="15">'
-        f'$ tokei ~/proyectos</text>',
+        f'$ cat ~/lenguajes</text>',
         f'<text class="mono mut" x="{PAD}" y="52" font-size="11">{fuente}</text>',
         f'<g clip-path="url(#bar)">',
         f'<rect class="track" x="{PAD}" y="{BAR_Y}" width="{ancho}" height="{BAR_H}"/>',
