@@ -116,6 +116,14 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 <br/>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jorgemg1414&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jorgemg1414&theme=github" />
+  <img alt="lenguajes más usados" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jorgemg1414&theme=github_dark" />
+</picture>
+
+<br/>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&title_color=0066FF&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=ffffff&color=24292f&title_color=0066FF&line=0066FF&point=0066FF&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
   <img width="100%" alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&title_color=0066FF&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
