@@ -23,6 +23,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Va antes del snake a proposito: snk corre en un contenedor como root y
+      # dejaria dist/ sin permiso de escritura para runner. Creandola aqui
+      # primero, root si puede escribir despues dentro de ella.
+      #
+      # PROFILE_TOKEN es un PAT con scope repo: sin el, la tarjeta sale
+      # con solo los repos publicos en vez de fallar.
+      - name: Generar la tarjeta de lenguajes
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python3 assets/gen_langs.py dist/langs.svg
+
       - name: Generar el snake
         uses: Platane/snk@v3
         id: snake
@@ -31,13 +42,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=0066FF&color_dots=#ebedf0,#c6dcff,#89b8ff,#3d8bff,#0066FF
             dist/github-snake-dark.svg?color_snake=0066FF&color_dots=#161b22,#0b2e63,#0d47a1,#1565d8,#4d94ff
-
-      # PROFILE_TOKEN es un PAT con scope repo: sin el, la tarjeta sale
-      # con solo los repos publicos en vez de fallar.
-      - name: Generar la tarjeta de lenguajes
-        env:
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
-        run: python3 assets/gen_langs.py dist/langs.svg
 
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v5
