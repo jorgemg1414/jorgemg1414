@@ -59,7 +59,8 @@ IA ........... Claude · OpenCode
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="46" alt="Linux" title="Linux" />&nbsp;&nbsp;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="46" alt="Debian" title="Debian" />&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" height="46" alt="Kali Linux" title="Kali Linux" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" height="46" alt="Kali Linux" title="Kali Linux" />&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/parrotsecurity" height="42" alt="Parrot OS" title="Parrot OS" />
 
 **Herramientas**
 
