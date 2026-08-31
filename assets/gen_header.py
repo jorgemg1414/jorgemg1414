@@ -23,7 +23,7 @@ SCRIPT = [
     ("whoami", NAME),
     ("id -Gn", "sysadmin  developer  security"),
     ("systemctl status jorge", "● active (running) since 2007"),
-    ("ls ~/proyectos", "rustblood  yohohielo  bao-textil"),
+    ("ls ~/proyectos", "rustblood  chicks  yohohielo  bao-textil"),
     ("pwd", "/home/jorge/cualtos/icom"),
     ("sudo make coffee", "error: recurso no disponible"),
 ]
