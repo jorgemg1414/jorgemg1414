@@ -7,6 +7,9 @@ al tema claro/oscuro del visitante.
 Para cambiar los comandos, edita SCRIPT: cada entrada es (comando, salida).
 Las posiciones verticales y el timeline se recalculan solos.
 
+Abajo patrulla el monito de Claude Code, calcado pixel a pixel del sticker
+original (rejilla de 11x8). Su recorrido va aparte del ciclo de la terminal.
+
     python3 assets/gen_header.py
 """
 import os
@@ -38,7 +41,33 @@ LAYOUT, _y = [], FIRST_Y
 for _cmd, _out in SCRIPT:
     LAYOUT.append((_y, _y + OUT_DROP))
     _y += OUT_GAP
-H = LAYOUT[-1][1] + 26
+
+# --- el monito: sprite 11x8 calcado del pixel art, patrulla el borde -----
+BOT_PX = 4                # lado de cada pixel del sprite
+BOT_STEP = 0.30           # segundos por zancada (cambio de frame)
+BOT_LOOP = 24.0           # segundos en ir de un extremo al otro y volver
+
+# '#' cuerpo, 'o' ojo, '.' vacio. Los dos frames alternan pares de patas.
+BOT_BODY = (
+    ".#########.",
+    ".#########.",
+    "##o#####o##",
+    "###########",
+    ".#########.",
+    ".#########.",
+    ".#.#...#.#.",
+)
+
+BOT_FRAMES = (
+    BOT_BODY + ("...#.....#.",),   # levanta las patas 1 y 3
+    BOT_BODY + (".#.....#...",),   # levanta las patas 2 y 4
+)
+
+BOT_W = len(BOT_FRAMES[0][0]) * BOT_PX
+BOT_H = len(BOT_FRAMES[0]) * BOT_PX
+
+H = LAYOUT[-1][1] + 26 + BOT_H + 10
+BOT_Y = H - BOT_H - 6
 
 TYPE_PER_CHAR = 0.07
 HOLD_AFTER_CMD = 0.28
@@ -129,6 +158,44 @@ def glitch_shift(sign):
     return pairs
 
 
+
+def bot_frame(cells):
+    """Un frame del monito: '#' es cuerpo, 'o' es ojo. Une pixeles contiguos."""
+    out = []
+    for row, line in enumerate(cells):
+        col = 0
+        while col < len(line):
+            ch = line[col]
+            run = 0
+            while col + run < len(line) and line[col + run] == ch:
+                run += 1
+            if ch in "#o":
+                cls = ' class="bot-eye"' if ch == "o" else ""
+                out.append(f'<rect{cls} x="{col * BOT_PX}" y="{row * BOT_PX}" '
+                           f'width="{run * BOT_PX}" height="{BOT_PX}"/>')
+            col += run
+    return "".join(out)
+
+
+def bot_svg():
+    """Va y viene de lado a lado del header, dando zancadas."""
+    walk = (f'<animateTransform attributeName="transform" type="translate" '
+            f'dur="{BOT_LOOP}s" repeatCount="indefinite" calcMode="linear" '
+            f'keyTimes="0;0.5;1" '
+            f'values="{-BOT_W - 10},{BOT_Y};{W + 10},{BOT_Y};{-BOT_W - 10},{BOT_Y}"/>')
+    bob = (f'<animateTransform attributeName="transform" type="translate" '
+           f'dur="{BOT_STEP * 2}s" repeatCount="indefinite" calcMode="discrete" '
+           f'values="0,0;0,-{BOT_PX}"/>')
+    frames = []
+    for n, cells in enumerate(BOT_FRAMES):
+        flip = "1;0" if n == 0 else "0;1"
+        frames.append(
+            f'<g class="bot">{bot_frame(cells)}'
+            f'<animate attributeName="opacity" dur="{BOT_STEP * 2}s" '
+            f'repeatCount="indefinite" calcMode="discrete" values="{flip}"/></g>')
+    return f'<g>{walk}<g>{bob}{"".join(frames)}</g></g>'
+
+
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
     f'viewBox="0 0 {W} {H}" role="img" aria-label="{NAME} — Sysadmin y Developer">',
@@ -139,11 +206,15 @@ parts = [
     '.out    { fill: #1a7f37; }',
     '.err    { fill: #cf222e; }',
     '.name   { fill: #1f2328; }',
+    '.bot     { fill: #D97757; }',
+    '.bot-eye { fill: #1f2328; }',
     '@media (prefers-color-scheme: dark) {',
     '  .prompt { fill: #8b949e; }',
     '  .out    { fill: #3fb950; }',
     '  .err    { fill: #f85149; }',
     '  .name   { fill: #e6edf3; }',
+    '  .bot     { fill: #E8916F; }',
+    '  .bot-eye { fill: #0d1117; }',
     '}',
     '</style>',
     '<defs>',
@@ -199,6 +270,7 @@ for n, step in enumerate(STEPS):
 parts.append(f'<rect width="9" height="18" fill="#0066FF" x="{base_x}" '
              f'y="{STEPS[0]["y_cmd"] - 13}">'
              + anim("x", cur_x) + anim("y", cur_y) + anim("opacity", blink) + '</rect>')
+parts.append(bot_svg())
 parts.append('</svg>')
 
 svg = "\n".join(parts)
