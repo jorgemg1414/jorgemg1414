@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="198" viewBox="0 0 500 198" role="img" aria-label="Lenguajes mas usados">
+<style>
+.mono { font-family: "Fira Code","JetBrains Mono","SF Mono",Consolas,monospace; }
+.cmd  { fill: #0066FF; }
+.name { fill: #1f2328; }
+.mut  { fill: #57606a; }
+.track{ fill: #ebedf0; }
+@media (prefers-color-scheme: dark) {
+  .name { fill: #e6edf3; }
+  .mut  { fill: #8b949e; }
+  .track{ fill: #21262d; }
+}
+</style>
+<defs><clipPath id="bar">
+<rect x="22" y="68" width="456" height="12" rx="6.0"/>
+</clipPath></defs>
+<text class="mono cmd" x="22" y="34" font-size="15">$ cat ~/lenguajes</text>
+<text class="mono mut" x="22" y="52" font-size="11">incluye repos privados</text>
+<g clip-path="url(#bar)">
+<rect class="track" x="22" y="68" width="456" height="12"/>
+<rect x="22.0" y="68" width="215.7" height="12" fill="#0066FF"/>
+<rect x="237.7" y="68" width="148.4" height="12" fill="#3d8bff"/>
+<rect x="386.1" y="68" width="24.8" height="12" fill="#66a3ff"/>
+<rect x="410.9" y="68" width="19.3" height="12" fill="#89b8ff"/>
+<rect x="430.2" y="68" width="14.4" height="12" fill="#a8ccff"/>
+<rect x="444.6" y="68" width="11.7" height="12" fill="#c6dcff"/>
+<rect x="456.3" y="68" width="21.7" height="12" fill="#8b949e"/>
+</g>
+<circle cx="27.0" cy="100" r="5" fill="#0066FF"/>
+<text class="mono name" x="40.0" y="104" font-size="12">JavaScript</text>
+<text class="mono mut" x="244.0" y="104" font-size="12" text-anchor="end">47.3%</text>
+<circle cx="261.0" cy="100" r="5" fill="#3d8bff"/>
+<text class="mono name" x="274.0" y="104" font-size="12">Vue</text>
+<text class="mono mut" x="478.0" y="104" font-size="12" text-anchor="end">32.5%</text>
+<circle cx="27.0" cy="122" r="5" fill="#66a3ff"/>
+<text class="mono name" x="40.0" y="126" font-size="12">TypeScript</text>
+<text class="mono mut" x="244.0" y="126" font-size="12" text-anchor="end">5.4%</text>
+<circle cx="261.0" cy="122" r="5" fill="#89b8ff"/>
+<text class="mono name" x="274.0" y="126" font-size="12">CSS</text>
+<text class="mono mut" x="478.0" y="126" font-size="12" text-anchor="end">4.2%</text>
+<circle cx="27.0" cy="144" r="5" fill="#a8ccff"/>
+<text class="mono name" x="40.0" y="148" font-size="12">HTML</text>
+<text class="mono mut" x="244.0" y="148" font-size="12" text-anchor="end">3.2%</text>
+<circle cx="261.0" cy="144" r="5" fill="#c6dcff"/>
+<text class="mono name" x="274.0" y="148" font-size="12">Python</text>
+<text class="mono mut" x="478.0" y="148" font-size="12" text-anchor="end">2.6%</text>
+<circle cx="27.0" cy="166" r="5" fill="#8b949e"/>
+<text class="mono name" x="40.0" y="170" font-size="12">otros (10)</text>
+<text class="mono mut" x="244.0" y="170" font-size="12" text-anchor="end">4.8%</text>
+</svg>
