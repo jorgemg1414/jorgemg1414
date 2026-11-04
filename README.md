@@ -126,19 +126,6 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 
 <br/>
 
-<!-- la genera assets/gen_langs.py en cada corrida del workflow -->
-<img src="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/langs.svg" alt="lenguajes más usados" />
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&title_color=0066FF&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=ffffff&color=24292f&title_color=0066FF&line=0066FF&point=0066FF&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
-  <img width="100%" alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=jorgemg1414&bg_color=0d1117&color=c9d1d9&title_color=0066FF&line=0066FF&point=ffffff&area=true&area_color=0066FF&hide_border=true&custom_title=Actividad%20de%20contribuciones" />
-</picture>
-
-<br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jorgemg1414/jorgemg1414/output/github-snake.svg" />
