@@ -32,8 +32,6 @@ IA ........... Claude · OpenCode
 
 Sitio oficial de **Rustblood**, banda de death metal progresivo de Tepatitlán, Jalisco: música con reproductor propio, fechas de conciertos, galería y tienda, en español e inglés.
 
-<a href="https://rustblood.com"><img src="./assets/rustblood.png" width="100%" alt="Captura de la portada de rustblood.com" /></a>
-
 ```
 jorge@github:~$ cat ~/proyectos/rustblood/info
 estado ....... ● live (en producción)
