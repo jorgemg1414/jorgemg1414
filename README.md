@@ -9,8 +9,6 @@
 
 </div>
 
-<samp># ─────────────────────────────────────────────────────────────</samp>
-
 ## <samp>$ cat ~/sobre-mi.md</samp>
 
 ```
@@ -32,8 +30,6 @@ IA ........... Claude · OpenCode
 - `[*]` Aprendiendo **C, Vue, TypeScript y JavaScript** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
 - `[+]` Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
 - `[+]` Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
-
-<samp># ─────────────────────────────────────────────────────────────</samp>
 
 ## <samp>$ apt list --installed</samp>
 
@@ -70,8 +66,6 @@ IA ........... Claude · OpenCode
 <img src="https://cdn.simpleicons.org/claude" height="42" alt="Claude" title="Claude" />&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/opencode/000000/ffffff" height="42" alt="OpenCode" title="OpenCode" />
 
-<samp># ─────────────────────────────────────────────────────────────</samp>
-
 ## <samp>$ ls ~/proyectos</samp>
 
 ### <samp>★ rustblood/ — proyecto principal</samp>
@@ -100,8 +94,6 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 
 > `[!]` *CHICKS, YohoHielo y BAO Textil están en **beta**: aún no son sitios oficiales ni venden nada todavía; sigo trabajando en ellos.*
 
-<samp># ─────────────────────────────────────────────────────────────</samp>
-
 ## <samp>$ cat ~/.contacts</samp>
 
 [<img src="https://cdn.simpleicons.org/gmail" height="42" alt="Email" title="jorgemantin@gmail.com" />](mailto:jorgemantin@gmail.com)
@@ -113,8 +105,6 @@ drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" height="42" alt="Facebook" title="Facebook" />](https://www.facebook.com/profile.php?id=100078654099312)
 &nbsp;&nbsp;
 [<img src="https://cdn.simpleicons.org/github/181717/ffffff" height="42" alt="GitHub" title="GitHub" />](https://github.com/jorgemg1414)
-
-<samp># ─────────────────────────────────────────────────────────────</samp>
 
 <div align="center">
 
