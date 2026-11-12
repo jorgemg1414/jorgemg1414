@@ -26,11 +26,6 @@ Seguridad .... hardening · ofensiva/defensiva
 IA ........... Claude · OpenCode
 ```
 
-- `[*]` Levanto y administro **servidores SQL, redes y cámaras**
-- `[*]` Aprendiendo **C, Vue, TypeScript y JavaScript** a fuego lento, metiéndole también a **backend** y **ciberseguridad**
-- `[+]` Interés fuerte en seguridad ofensiva/defensiva y hardening de sistemas
-- `[+]` Programo apoyándome en **IA**: uso **Claude** como copiloto para prototipar, depurar y automatizar más rápido
-
 ## <samp>$ apt list --installed</samp>
 
 **Lenguajes**
