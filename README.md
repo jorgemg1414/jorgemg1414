@@ -26,6 +26,34 @@ Seguridad .... hardening · ofensiva/defensiva
 IA ........... Claude · OpenCode
 ```
 
+## <samp>$ ls ~/proyectos</samp>
+
+### <samp>★ rustblood/ — proyecto principal</samp>
+
+```
+jorge@github:~$ cat ~/proyectos/rustblood/info
+estado ....... ● live (en producción)
+dominio ...... rustblood.com
+mi parte ..... frontend · diseño · despliegue
+```
+
+<a href="https://rustblood.com"><img src="https://img.shields.io/badge/%E2%86%92%20visitar-rustblood.com-0066FF?style=for-the-badge&labelColor=001a4d" height="36" alt="Visitar rustblood.com" /></a>
+
+**Otros proyectos**
+
+```
+jorge@github:~$ ls -la ~/proyectos | grep beta
+drwxr-xr-x  beta  chicks-tepa/   Pollo frito marinado 24 h — menú y pedidos
+drwxr-xr-x  beta  yohohielo/     Venta de hielo premium
+drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
+```
+
+**chicks-tepa/** → [chicks-tepa.vercel.app](https://chicks-tepa.vercel.app/) &nbsp;·&nbsp;
+**yohohielo/** → [yohohielo.vercel.app](https://yohohielo.vercel.app/) &nbsp;·&nbsp;
+**bao-textil/** → [bao-textil.vercel.app](https://bao-textil.vercel.app/)
+
+> `[!]` *CHICKS, YohoHielo y BAO Textil están en **beta**: aún no son sitios oficiales ni venden nada todavía; sigo trabajando en ellos.*
+
 ## <samp>$ apt list --installed</samp>
 
 **Lenguajes**
@@ -60,34 +88,6 @@ IA ........... Claude · OpenCode
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="46" alt="VS Code" title="VS Code" />&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/claude" height="42" alt="Claude" title="Claude" />&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/opencode/000000/ffffff" height="42" alt="OpenCode" title="OpenCode" />
-
-## <samp>$ ls ~/proyectos</samp>
-
-### <samp>★ rustblood/ — proyecto principal</samp>
-
-```
-jorge@github:~$ cat ~/proyectos/rustblood/info
-estado ....... ● live (en producción)
-dominio ...... rustblood.com
-mi parte ..... frontend · diseño · despliegue
-```
-
-<a href="https://rustblood.com"><img src="https://img.shields.io/badge/%E2%86%92%20visitar-rustblood.com-0066FF?style=for-the-badge&labelColor=001a4d" height="36" alt="Visitar rustblood.com" /></a>
-
-**Otros proyectos**
-
-```
-jorge@github:~$ ls -la ~/proyectos | grep beta
-drwxr-xr-x  beta  chicks-tepa/   Pollo frito marinado 24 h — menú y pedidos
-drwxr-xr-x  beta  yohohielo/     Venta de hielo premium
-drwxr-xr-x  beta  bao-textil/    Textiles para el hogar
-```
-
-**chicks-tepa/** → [chicks-tepa.vercel.app](https://chicks-tepa.vercel.app/) &nbsp;·&nbsp;
-**yohohielo/** → [yohohielo.vercel.app](https://yohohielo.vercel.app/) &nbsp;·&nbsp;
-**bao-textil/** → [bao-textil.vercel.app](https://bao-textil.vercel.app/)
-
-> `[!]` *CHICKS, YohoHielo y BAO Textil están en **beta**: aún no son sitios oficiales ni venden nada todavía; sigo trabajando en ellos.*
 
 ## <samp>$ cat ~/.contacts</samp>
 
